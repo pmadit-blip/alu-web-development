@@ -1,0 +1,363 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: transparent;
+  padding: 28px 0;
+}
+
+header > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+header > div > div {
+  display: flex;
+  gap: 40px;
+}
+
+/* Banner */
+main > section:first-child {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 110px 0 130px;
+  color: white;
+}
+
+main > section:first-child h1 {
+  font-size: 120px;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+main > section:first-child > div:first-child p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+main > section:first-child button {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  padding: 13px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 2px 20px rgba(0,0,0,0.5);
+}
+
+main > section:first-child > div:last-child h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 50px 0 40px;
+}
+
+main > section:first-child > div:last-child > div {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main > section:first-child > div:last-child > div img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+main > section:first-child > div:last-child > div h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+main > section:first-child > div:last-child > div p {
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Quote */
+main > section:nth-child(2) {
+  background-color: #C271FF;
+  padding: 80px 0;
+  color: white;
+}
+
+main > section:nth-child(2) > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+main > section:nth-child(2) img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+main > section:nth-child(2) blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+main > section:nth-child(2) p:first-of-type {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+main > section:nth-child(2) p:last-of-type {
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Videos */
+main > section:nth-child(3) {
+  background-color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+main > section:nth-child(3) h1 {
+  font-size: 32px;
+  color: #071629;
+  margin-bottom: 50px;
+}
+
+main > section:nth-child(3) h1 span,
+main > section:nth-child(3) h1 {
+  color: #C271FF;
+}
+
+main > section:nth-child(3) > div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main > section:nth-child(3) > div > div {
+  width: 220px;
+  text-align: left;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+main > section:nth-child(3) > div > div img:first-child {
+  width: 100%;
+  border-radius: 4px;
+}
+
+main > section:nth-child(3) h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #071629;
+  margin: 10px 0 5px;
+}
+
+main > section:nth-child(3) > div > div > p {
+  font-size: 12px;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+main > section:nth-child(3) > div > div > div:first-of-type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+main > section:nth-child(3) > div > div > div:first-of-type img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+main > section:nth-child(3) > div > div > div:first-of-type h3 {
+  font-size: 12px;
+  color: #C271FF;
+  font-style: italic;
+}
+
+main > section:nth-child(3) > div > div > div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main > section:nth-child(3) > div > div > div:last-of-type > div {
+  display: flex;
+  gap: 2px;
+}
+
+main > section:nth-child(3) > div > div > div:last-of-type > div img {
+  width: 15px;
+  height: 15px;
+}
+
+main > section:nth-child(3) > div > div > div:last-of-type p {
+  font-size: 12px;
+  color: #C271FF;
+}
+
+/* Membership */
+main > section:nth-child(4) {
+  background-color: #071629;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+main > section:nth-child(4) h1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+main > section:nth-child(4) h1,
+main > section:nth-child(4) h1 span {
+  color: #C271FF;
+}
+
+main > section:nth-child(4) > div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
+main > section:nth-child(4) > div > div {
+  width: 200px;
+}
+
+main > section:nth-child(4) img {
+  width: 50px;
+  margin-bottom: 15px;
+  filter: invert(1);
+}
+
+main > section:nth-child(4) h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+main > section:nth-child(4) p {
+  font-size: 14px;
+}
+
+main > section:nth-child(4) button {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  padding: 13px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FAQ */
+main > section:nth-child(5) {
+  background-color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+main > section:nth-child(5) h1 {
+  font-size: 32px;
+  color: #071629;
+  margin-bottom: 50px;
+}
+
+main > section:nth-child(5) > div {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main > section:nth-child(5) > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+main > section:nth-child(5) > div > div > div {
+  width: 45%;
+}
+
+main > section:nth-child(5) h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #071629;
+  margin-bottom: 10px;
+}
+
+main > section:nth-child(5) p {
+  font-size: 14px;
+  color: #071629;
+}
+
+/* Footer */
+footer {
+  background-color: #071629;
+  padding: 50px 0;
+  color: white;
+}
+
+footer > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer > div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+footer > div > div > div {
+  display: flex;
+  gap: 20px;
+}
+
+footer > div > div > div a img {
+  width: 25px;
+  height: 25px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #ffffff80;
+}
